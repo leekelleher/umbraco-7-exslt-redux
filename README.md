@@ -1,6 +1,6 @@
 # EXSLT Redux
 
-EXSLT resurrected for Umbraco 7.
+EXSLT resurrected for Umbraco 7.x
 
 ### Background
 
