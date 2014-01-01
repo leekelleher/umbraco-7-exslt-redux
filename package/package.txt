@@ -1,0 +1,3 @@
+EXSLT Redux
+
+EXSLT resurrected for Umbraco 7.

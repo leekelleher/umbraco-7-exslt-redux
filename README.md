@@ -1,8 +1,14 @@
 # EXSLT Redux
 
-EXSLT resurrected for Umbraco 7
+EXSLT resurrected for Umbraco 7.
 
-## References
+### Background
+
+
+### Installation
+
+
+### References
 
 * [U4-2742 Remove legacy xsltExtensions.config - xslt extensions are configured using attributes](http://issues.umbraco.org/issue/U4-2742)
 * [EXSLT library - does anyone use it?](https://groups.google.com/forum/#!msg/umbraco-dev/1-lhkqfe3xs/rrbZCknMAlAJ)
