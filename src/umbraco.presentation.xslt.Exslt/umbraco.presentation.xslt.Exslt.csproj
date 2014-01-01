@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Umbraco.Core">
       <HintPath>..\packages\UmbracoCms.Core.7.0.0\lib\Umbraco.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
