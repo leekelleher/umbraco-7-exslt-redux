@@ -1,6 +1,7 @@
 	using System;
 	using System.Xml.XPath; 
 	using System.Xml;
+using Umbraco.Core.Macros;
 
 
 
@@ -9,6 +10,7 @@ namespace umbraco.presentation.xslt.Exslt
 		/// <summary>
 		///   This class implements the EXSLT functions in the http://exslt.org/sets namespace.
 		/// </summary>		
+	[XsltExtension("Exslt.ExsltSets")]
 			public class ExsltSets {
 				
 				/// <summary>

@@ -2,12 +2,14 @@ using System;
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.XPath;
+using Umbraco.Core.Macros;
 
 namespace umbraco.presentation.xslt.Exslt
 {
 	/// <summary>
 	/// This class implements the EXSLT functions in the http://exslt.org/regular-expressions namespace.
 	/// </summary>
+	[XsltExtension("Exslt.ExsltRegularExpressions")]
 	public class ExsltRegularExpressions {
 		
 		/// <summary>

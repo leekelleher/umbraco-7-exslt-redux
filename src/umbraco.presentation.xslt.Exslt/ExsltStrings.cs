@@ -3,12 +3,14 @@ using System.Xml.XPath;
 using System.Xml;
 using System.Text;
 using System.Text.RegularExpressions;
+using Umbraco.Core.Macros;
 
 namespace umbraco.presentation.xslt.Exslt
 {
 	/// <summary>
 	/// Implements the functions in the http://exslt.org/strings namespace 
 	/// </summary>
+	[XsltExtension("Exslt.ExsltStrings")]
 	public class ExsltStrings {
 		/// <summary>
 		/// Implements the following function 

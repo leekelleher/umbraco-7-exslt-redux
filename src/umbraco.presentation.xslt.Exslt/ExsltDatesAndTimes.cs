@@ -2,12 +2,14 @@ using System;
 using System.Globalization;
 using System.Xml;
 using System.Xml.XPath;
+using Umbraco.Core.Macros;
 
 namespace umbraco.presentation.xslt.Exslt
 {
 	/// <summary>
 	/// This class implements the EXSLT functions in the http://exslt.org/dates-and-times namespace.
 	/// </summary>
+	[XsltExtension("Exslt.ExsltDatesAndTimes")]
 	public class ExsltDatesAndTimes
 	{
 		

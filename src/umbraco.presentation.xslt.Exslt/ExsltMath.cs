@@ -1,12 +1,14 @@
 using System;
 using System.Xml;
 using System.Xml.XPath;
+using Umbraco.Core.Macros;
 
 namespace umbraco.presentation.xslt.Exslt
 {
 	/// <summary>
 	/// This class implements the EXSLT functions in the http://exslt.org/math namespace.
 	/// </summary>
+	[XsltExtension("Exslt.ExsltMath")]
 	public class ExsltMath {
 		/// <summary>
 		/// Implements the following function 

@@ -3,12 +3,14 @@ using System.Xml.Xsl;
 using System.Xml.XPath;
 using System.Xml;
 using System.Reflection;
+using Umbraco.Core.Macros;
 
 namespace umbraco.presentation.xslt.Exslt
 {
 	/// <summary>
 	/// This class implements the EXSLT functions in the http://exslt.org/common namespace.
 	/// </summary>
+	[XsltExtension("Exslt.ExsltCommon")]
 	public class ExsltCommon
 	{
 		
