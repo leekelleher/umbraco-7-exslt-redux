@@ -9,4 +9,5 @@ _ReSharper.*
 Thumbs.db
 .DS_Store
 
+src/packages/*/**
 EXSLT_Redux_*.zip
