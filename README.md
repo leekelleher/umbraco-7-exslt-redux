@@ -16,11 +16,12 @@ This package is one of those "install and forget" packages, as in there is no co
 
 To install the Umbraco package, here are the steps:
 
-1. Login to your Umbraco back-office.
-2. Go to the *Developer* section.
-3. From the tree, expand the *Packages* folder.
-4. Select *Install local package*.
-5. Follow the on-screen instructions.
+1. [Download the package from the Our Umbraco website.](http://our.umbraco.org/projects/website-utilities/exslt-redux)
+2. Login to your Umbraco back-office.
+3. Go to the *Developer* section.
+4. From the tree, expand the *Packages* folder.
+5. Select *Install local package*.
+6. Follow the on-screen instructions.
 
 
 ### References
