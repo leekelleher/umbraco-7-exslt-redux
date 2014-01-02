@@ -4,9 +4,15 @@ EXSLT resurrected for Umbraco 7.x
 
 ### Background
 
+With the release of Umbraco 7, the previously built-in EXSLT extension methods have been removed.  The reason for this is [explained on ticket #U4-2742](http://issues.umbraco.org/issue/U4-2742#comment=67-9450). (*In a nutshell the many of the EXSLT extension methods haven't worked since Umbraco 4.5 / .NET 4.0.*)
+
+However since there are still other EXSLT extension methods that work, there has been a demand for continued support. Thus this package was created.
 
 ### Installation
 
+This package is one of those "install and forget" packages, as in there is no configuration or set-up required.
+
+For instructions on how to install an Umbraco package, please refer to the tutorial on the Our Umbraco website: **[How to install a Package](http://our.umbraco.org/wiki/how-tos/packages-and-projects/how-to-install-a-package)**
 
 ### References
 
